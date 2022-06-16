@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_uA6S8HnkEeyigsMJK-spsg" name="_1_2020">
+    <eAnnotations xmi:id="_uDlMcHnkEeyigsMJK-spsg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_uDlMcXnkEeyigsMJK-spsg" source="codegen">
+        <details xmi:id="_uDlMcnnkEeyigsMJK-spsg" key="codegenDirectory" value="/1-2020/src"/>
+        <details xmi:id="_uT8jsHnkEeyigsMJK-spsg" key="AssociatedSourceCode" value="/1-2020/src/projekatt/ClanskaKarta.java;2594597259/1;/1-2020/src/projekatt/JFrameIzaberi.java;1562763179/1;/1-2020/src/projekatt/JFrameLogin.java;1069802976/1;/1-2020/src/projekatt/JFrameMesecnaKarta.java;2867134844/1;/1-2020/src/projekatt/JFrameNutricionista.java;3507648175/1;/1-2020/src/projekatt/JFrameRegistracijaKorisnika.java;1654857367/1;/1-2020/src/projekatt/JFrameRezervisanje.java;1239332670/1;/1-2020/src/projekatt/Korisnik.java;3191682096/1;/1-2020/src/projekatt/Nutricionista.java;594032975/1;/1-2020/src/projekatt/Osoba.java;578126655/1;/1-2020/src/projekatt/Trener.java;1190457258/1;/1-2020/src/projekatt/Trening.java;3662299943/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_uNcTEHnkEeyigsMJK-spsg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_uNcTEXnkEeyigsMJK-spsg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_uNcTEnnkEeyigsMJK-spsg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_uNcTE3nkEeyigsMJK-spsg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_uNc6IHnkEeyigsMJK-spsg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_uNc6IXnkEeyigsMJK-spsg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_uNc6InnkEeyigsMJK-spsg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_uNdhMHnkEeyigsMJK-spsg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_uNdhMXnkEeyigsMJK-spsg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_uNevUHnkEeyigsMJK-spsg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_uNfWYHnkEeyigsMJK-spsg" name="util">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_uQm70HnkEeyigsMJK-spsg" name="Date"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_uNpHYHnkEeyigsMJK-spsg" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_uNqVgXnkEeyigsMJK-spsg" name="event">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_uQsbYXnkEeyigsMJK-spsg" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uQsbY3nkEeyigsMJK-spsg" name="ActionEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQoxAHnkEeyigsMJK-spsg" name="BorderLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQpYEXnkEeyigsMJK-spsg" name="EventQueue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQr0UHnkEeyigsMJK-spsg" name="Font"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQr0UnnkEeyigsMJK-spsg" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQvesXnkEeyigsMJK-spsg" name="SystemColor"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQ4BknnkEeyigsMJK-spsg" name="FlowLayout"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_uNldAHnkEeyigsMJK-spsg" name="projekatt">
+      <packagedElement xmi:type="uml:Class" xmi:id="_uOrpMHnkEeyigsMJK-spsg" name="ClanskaKarta">
+        <ownedAttribute xmi:id="_uRNYwHnkEeyigsMJK-spsg" name="datumUzimanja" type="_uQm70HnkEeyigsMJK-spsg" association="_uRfsoHnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRNYwXnkEeyigsMJK-spsg" name="datumIsteka" type="_uQm70HnkEeyigsMJK-spsg" association="_uRfsonnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRNYwnnkEeyigsMJK-spsg" name="daLiImaBonus">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRN_0HnkEeyigsMJK-spsg" name="ziroRacun">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRZmAHnkEeyigsMJK-spsg" name="ClanskaKarta" specification="_uRGrEHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRZmAXnkEeyigsMJK-spsg" name="datumUzimanja" type="_uQm70HnkEeyigsMJK-spsg"/>
+          <ownedParameter xmi:id="_uRZmAnnkEeyigsMJK-spsg" name="datumIsteka" type="_uQm70HnkEeyigsMJK-spsg"/>
+          <ownedParameter xmi:id="_uRZmA3nkEeyigsMJK-spsg" name="daLiImaBonus">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRZmBHnkEeyigsMJK-spsg" name="ziroRacun">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRZmBXnkEeyigsMJK-spsg" type="_uOrpMHnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.datumUzimanja = datumUzimanja;&#xD;
+		this.datumIsteka = datumIsteka;&#xD;
+		this.daLiImaBonus = daLiImaBonus;&#xD;
+		this.ziroRacun = ziroRacun;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRZmBnnkEeyigsMJK-spsg" name="toString" specification="_uOuFcHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRZmB3nkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;ClanskaKarta [ziroRacun=&quot; + ziroRacun + &quot;]&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRZmCHnkEeyigsMJK-spsg" name="vazecaKarta" specification="_uOusg3nkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRZmCXnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return (this.datumUzimanja.getTime() - this.datumIsteka.getTime()) > 0 ? true : false; &#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uOsQQHnkEeyigsMJK-spsg" name="ClanskaKarta">
+          <eAnnotations xmi:id="_uOs3UHnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uOs3UXnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uOteYXnkEeyigsMJK-spsg" type="_uOrpMHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uOuFcHnkEeyigsMJK-spsg" name="toString" method="_uRZmBnnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uOuFcXnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uOusg3nkEeyigsMJK-spsg" name="vazecaKarta" method="_uRZmCHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uOushHnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uRGrEHnkEeyigsMJK-spsg" name="ClanskaKarta" method="_uRZmAHnkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uRGrFXnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uRGrFnnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uRGrEXnkEeyigsMJK-spsg" name="datumUzimanja" type="_uQm70HnkEeyigsMJK-spsg"/>
+          <ownedParameter xmi:id="_uRGrEnnkEeyigsMJK-spsg" name="datumIsteka" type="_uQm70HnkEeyigsMJK-spsg"/>
+          <ownedParameter xmi:id="_uRGrE3nkEeyigsMJK-spsg" name="daLiImaBonus">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRGrFHnkEeyigsMJK-spsg" name="ziroRacun">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRGrF3nkEeyigsMJK-spsg" type="_uOrpMHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uOwhsHnkEeyigsMJK-spsg" name="JFrameIzaberi">
+        <generalization xmi:id="_uRH5MHnkEeyigsMJK-spsg" general="_uQp_IXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRN_0XnkEeyigsMJK-spsg" name="contentPane" visibility="private" type="_uQp_I3nkEeyigsMJK-spsg" association="_uRj-EHnkEeyigsMJK-spsg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRaNEHnkEeyigsMJK-spsg" name="main" specification="_uOxv0HnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRaNEXnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uRaNEnnkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {&#xD;
+			public void run() {&#xD;
+				try {&#xD;
+					JFrameIzaberi frame = new JFrameIzaberi();&#xD;
+					frame.setVisible(true);&#xD;
+				} catch (Exception e) {&#xD;
+					e.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+		});&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRaNE3nkEeyigsMJK-spsg" name="JFrameIzaberi" specification="_uOxv03nkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRaNFHnkEeyigsMJK-spsg" type="_uOwhsHnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+		setBounds(100, 100, 511, 547);&#xD;
+		contentPane = new JPanel();&#xD;
+		contentPane.setBackground(new Color(255, 255, 255));&#xD;
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));&#xD;
+		setContentPane(contentPane);&#xD;
+		contentPane.setLayout(null);&#xD;
+		&#xD;
+		JButton btnZakazivanjeTr = new JButton(&quot;Zakazivanje treninga&quot;);&#xD;
+		btnZakazivanjeTr.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameRezervisanje JFRezervisanje= new JFrameRezervisanje();&#xD;
+				JFRezervisanje.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnZakazivanjeTr.setForeground(new Color(255, 255, 255));&#xD;
+		btnZakazivanjeTr.setBackground(new Color(165, 42, 42));&#xD;
+		btnZakazivanjeTr.setFont(new Font(&quot;Microsoft YaHei Light&quot;, Font.BOLD, 16));&#xD;
+		btnZakazivanjeTr.setBounds(147, 28, 205, 68);&#xD;
+		btnZakazivanjeTr.setFocusPainted(false);&#xD;
+		contentPane.add(btnZakazivanjeTr);&#xD;
+		&#xD;
+		JButton btnNutricionista = new JButton(&quot;Nutricionista&quot;);&#xD;
+		btnNutricionista.setForeground(new Color(255, 255, 255));&#xD;
+		btnNutricionista.setBackground(new Color(205, 92, 92));&#xD;
+		btnNutricionista.setFont(new Font(&quot;Microsoft YaHei Light&quot;, Font.BOLD, 18));&#xD;
+		btnNutricionista.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameNutricionista JFNutricionista= new JFrameNutricionista();&#xD;
+				JFNutricionista.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnNutricionista.setBounds(147, 125, 205, 68);&#xD;
+		contentPane.add(btnNutricionista);&#xD;
+		&#xD;
+		JButton btnMesecna = new JButton(&quot;Mese\u010Dna karta&quot;);&#xD;
+		btnMesecna.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameMesecnaKarta JFMesecnaKarta= new JFrameMesecnaKarta();&#xD;
+				JFMesecnaKarta.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnMesecna.setForeground(new Color(255, 255, 255));&#xD;
+		btnMesecna.setBackground(new Color(240, 128, 128));&#xD;
+		btnMesecna.setFont(new Font(&quot;Microsoft YaHei Light&quot;, Font.BOLD, 18));&#xD;
+		btnMesecna.setBounds(147, 226, 205, 68);&#xD;
+		contentPane.add(btnMesecna);&#xD;
+		&#xD;
+		JButton btnNazad = new JButton(&quot;&quot;);&#xD;
+		btnNazad.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameLogin JFRLogin= new JFrameLogin();&#xD;
+				JFRLogin.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnNazad.setBackground(new Color(255, 255, 255));&#xD;
+		btnNazad.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-back-arrow-30.png&quot;));&#xD;
+		btnNazad.setBounds(10, 452, 74, 45);&#xD;
+		btnNazad.setFocusPainted(false);&#xD;
+		contentPane.add(btnNazad);&#xD;
+		&#xD;
+		JLabel lblNewLabel = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\pexels-photo-3764014.jpeg&quot;));&#xD;
+		lblNewLabel.setBounds(0, 0, 500, 572);&#xD;
+		contentPane.add(lblNewLabel);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uOxv0HnkEeyigsMJK-spsg" name="main" isStatic="true" method="_uRaNEHnkEeyigsMJK-spsg">
+          <ownedComment xmi:id="_uRgTsXnkEeyigsMJK-spsg">
+            <body>Launch the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uOxv0XnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uOxv0nnkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uOxv03nkEeyigsMJK-spsg" name="JFrameIzaberi" method="_uRaNE3nkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uOxv1HnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uOxv1XnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_uRgTsnnkEeyigsMJK-spsg">
+            <body>Create the frame.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uOyW4HnkEeyigsMJK-spsg" type="_uOwhsHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uOyW4XnkEeyigsMJK-spsg" name="JFrameLogin">
+        <generalization xmi:id="_uRH5MXnkEeyigsMJK-spsg" general="_uQp_IXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uROm4HnkEeyigsMJK-spsg" name="contentPane" visibility="private" type="_uQp_I3nkEeyigsMJK-spsg" association="_uRklIXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uROm4nnkEeyigsMJK-spsg" name="textFieldKorIme" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRlMMXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRPN8XnkEeyigsMJK-spsg" name="textLozinka" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRlzQXnkEeyigsMJK-spsg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRaNFXnkEeyigsMJK-spsg" name="main" specification="_uOy98HnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRaNFnnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uRaNF3nkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {&#xD;
+			public void run() {&#xD;
+				try {	&#xD;
+					JFrameLogin frame = new JFrameLogin();&#xD;
+					frame.setVisible(true);&#xD;
+				} catch (Exception e) {&#xD;
+					e.printStackTrace();&#xD;
+					&#xD;
+				}&#xD;
+			}&#xD;
+		});&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRaNGHnkEeyigsMJK-spsg" name="JFrameLogin" specification="_uOzlAXnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRaNGXnkEeyigsMJK-spsg" type="_uOyW4XnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+		setBounds(100, 100, 962, 647);&#xD;
+		contentPane = new JPanel();&#xD;
+		contentPane.setBackground(Color.WHITE);&#xD;
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));&#xD;
+		setContentPane(contentPane);&#xD;
+		contentPane.setLayout(null);&#xD;
+		&#xD;
+		JLabel lblNewLabel = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\photo-1571902943202-507ec2618e8f.jfif&quot;));&#xD;
+		lblNewLabel.setBounds(-51, 0, 560, 608);&#xD;
+		contentPane.add(lblNewLabel);&#xD;
+		&#xD;
+		JLabel lblHerojlogo = new JLabel(&quot;&quot;);&#xD;
+		lblHerojlogo.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\heroj-vranje2-540x400.jpg&quot;));&#xD;
+		lblHerojlogo.setBounds(669, 11, 140, 100);&#xD;
+		contentPane.add(lblHerojlogo);&#xD;
+		&#xD;
+		JLabel lblKorisnicko = new JLabel(&quot;Korisni\u010Dko ime:&quot;);&#xD;
+		lblKorisnicko.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 18));&#xD;
+		lblKorisnicko.setBounds(572, 184, 134, 31);&#xD;
+		contentPane.add(lblKorisnicko);&#xD;
+		&#xD;
+		textFieldKorIme = new JTextField();&#xD;
+		textFieldKorIme.setFont(new Font(&quot;Verdana&quot;, Font.PLAIN, 12));&#xD;
+		textFieldKorIme.setBackground(SystemColor.menu);&#xD;
+		textFieldKorIme.setBounds(616, 229, 299, 23);&#xD;
+		contentPane.add(textFieldKorIme);&#xD;
+		textFieldKorIme.setColumns(10);&#xD;
+		&#xD;
+		JLabel lblLozinka = new JLabel(&quot;Lozinka:&quot;);&#xD;
+		lblLozinka.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 18));&#xD;
+		lblLozinka.setBounds(572, 299, 99, 17);&#xD;
+		contentPane.add(lblLozinka);&#xD;
+		&#xD;
+		textLozinka = new JTextField();&#xD;
+		textLozinka.setFont(new Font(&quot;Verdana&quot;, Font.PLAIN, 12));&#xD;
+		textLozinka.setBackground(SystemColor.menu);&#xD;
+		textLozinka.setBounds(616, 340, 299, 23);&#xD;
+		contentPane.add(textLozinka);&#xD;
+		textLozinka.setColumns(10);&#xD;
+		&#xD;
+		JButton btnPrijava = new JButton(&quot;Prijava&quot;);&#xD;
+		btnPrijava.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameIzaberi JFIzaberi= new JFrameIzaberi();&#xD;
+				JFIzaberi.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnPrijava.setForeground(new Color(255, 255, 255));&#xD;
+		btnPrijava.setBackground(new Color(178, 34, 34));&#xD;
+		btnPrijava.setFont(new Font(&quot;Microsoft YaHei UI Light&quot;, Font.BOLD, 17));&#xD;
+		btnPrijava.setBounds(572, 482, 134, 40);&#xD;
+		contentPane.add(btnPrijava);&#xD;
+		&#xD;
+		JButton btnNoviNalog = new JButton(&quot;Novi nalog&quot;);&#xD;
+		btnNoviNalog.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameRegistracijaKorisnika JFRegistr= new JFrameRegistracijaKorisnika();&#xD;
+				JFRegistr.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnNoviNalog.setFont(new Font(&quot;Microsoft YaHei Light&quot;, Font.BOLD, 17));&#xD;
+		btnNoviNalog.setForeground(new Color(255, 255, 255));&#xD;
+		btnNoviNalog.setBackground(new Color(178, 34, 34));&#xD;
+		btnNoviNalog.setBounds(775, 482, 140, 40);&#xD;
+		contentPane.add(btnNoviNalog);&#xD;
+		&#xD;
+		JLabel lblPswIcon = new JLabel(&quot;&quot;);&#xD;
+		lblPswIcon.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-password-30.png&quot;));&#xD;
+		lblPswIcon.setBounds(572, 332, 24, 31);&#xD;
+		contentPane.add(lblPswIcon);&#xD;
+		&#xD;
+		JLabel lblNewLabel_1 = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel_1.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-name-24.png&quot;));&#xD;
+		lblNewLabel_1.setBounds(572, 229, 24, 23);&#xD;
+		contentPane.add(lblNewLabel_1);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uOy98HnkEeyigsMJK-spsg" name="main" isStatic="true" method="_uRaNFXnkEeyigsMJK-spsg">
+          <ownedComment xmi:id="_uRgTs3nkEeyigsMJK-spsg">
+            <body>Launch the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uOy98XnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uOzlAHnkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uOzlAXnkEeyigsMJK-spsg" name="JFrameLogin" method="_uRaNGHnkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uOzlAnnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uOzlA3nkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_uRgTtHnkEeyigsMJK-spsg">
+            <body>Create the frame.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uOzlBHnkEeyigsMJK-spsg" type="_uOyW4XnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uO0zIHnkEeyigsMJK-spsg" name="JFrameMesecnaKarta">
+        <generalization xmi:id="_uRIgQHnkEeyigsMJK-spsg" general="_uQp_IXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRPN83nkEeyigsMJK-spsg" name="contentPane" visibility="private" type="_uQp_I3nkEeyigsMJK-spsg" association="_uRlzRHnkEeyigsMJK-spsg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRa0IHnkEeyigsMJK-spsg" name="main" specification="_uO1aMHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRa0IXnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uRa0InnkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {&#xD;
+			public void run() {&#xD;
+				try {&#xD;
+					JFrameMesecnaKarta frame = new JFrameMesecnaKarta();&#xD;
+					frame.setVisible(true);&#xD;
+				} catch (Exception e) {&#xD;
+					e.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+		});&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRa0I3nkEeyigsMJK-spsg" name="JFrameMesecnaKarta" specification="_uO1aM3nkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRa0JHnkEeyigsMJK-spsg" type="_uO0zIHnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+		setBounds(100, 100, 979, 679);&#xD;
+		contentPane = new JPanel();&#xD;
+		contentPane.setBackground(new Color(255, 255, 255));&#xD;
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));&#xD;
+		setContentPane(contentPane);&#xD;
+		contentPane.setLayout(null);&#xD;
+		&#xD;
+		JLabel lblNewLabel = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel.setBounds(840, 0, 123, 113);&#xD;
+		contentPane.add(lblNewLabel);&#xD;
+		lblNewLabel.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\heroj-vranje2-540x400.jpg&quot;));&#xD;
+		&#xD;
+		JPanel Kartica1 = new JPanel();&#xD;
+		Kartica1.setBackground(new Color(245, 245, 245));&#xD;
+		Kartica1.setBounds(46, 157, 228, 337);&#xD;
+		contentPane.add(Kartica1);&#xD;
+		Kartica1.setLayout(null);&#xD;
+		&#xD;
+		JPanel Kartica11 = new JPanel();&#xD;
+		Kartica11.setBackground(new Color(105, 105, 105));&#xD;
+		Kartica11.setBounds(0, 0, 228, 50);&#xD;
+		Kartica1.add(Kartica11);&#xD;
+		Kartica11.setLayout(null);&#xD;
+		&#xD;
+		JLabel lblDnevna = new JLabel(&quot;DNEVNA&quot;);&#xD;
+		lblDnevna.setForeground(new Color(255, 255, 255));&#xD;
+		lblDnevna.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.BOLD, 17));&#xD;
+		lblDnevna.setBounds(56, 11, 99, 28);&#xD;
+		Kartica11.add(lblDnevna);&#xD;
+		&#xD;
+		JLabel lbl16 = new JLabel(&quot;&quot;);&#xD;
+		lbl16.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-16-24.png&quot;));&#xD;
+		lbl16.setBounds(23, 85, 38, 25);&#xD;
+		Kartica1.add(lbl16);&#xD;
+		&#xD;
+		JLabel lblNewLabel_2 = new JLabel(&quot;Treninga mese\u010Dno&quot;);&#xD;
+		lblNewLabel_2.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 15));&#xD;
+		lblNewLabel_2.setBounds(59, 85, 144, 25);&#xD;
+		Kartica1.add(lblNewLabel_2);&#xD;
+		&#xD;
+		JLabel lblNewLabel_9 = new JLabel(&quot;2690 RSD&quot;);&#xD;
+		lblNewLabel_9.setFont(new Font(&quot;Bookman Old Style&quot;, Font.BOLD, 19));&#xD;
+		lblNewLabel_9.setBounds(52, 228, 114, 37);&#xD;
+		Kartica1.add(lblNewLabel_9);&#xD;
+		&#xD;
+		JButton btnKupite1 = new JButton(&quot;Kupite&quot;);&#xD;
+		btnKupite1.setForeground(new Color(255, 255, 255));&#xD;
+		btnKupite1.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 15));&#xD;
+		btnKupite1.setBackground(new Color(204, 51, 51));&#xD;
+		btnKupite1.setBounds(52, 276, 105, 31);&#xD;
+		btnKupite1.setFocusPainted(false);&#xD;
+		Kartica1.add(btnKupite1);&#xD;
+		&#xD;
+		JPanel Kartica1_1 = new JPanel();&#xD;
+		Kartica1_1.setLayout(null);&#xD;
+		Kartica1_1.setBackground(new Color(245, 245, 245));&#xD;
+		Kartica1_1.setBounds(371, 157, 228, 337);&#xD;
+		contentPane.add(Kartica1_1);&#xD;
+		&#xD;
+		JPanel Kartica11_1 = new JPanel();&#xD;
+		Kartica11_1.setLayout(null);&#xD;
+		Kartica11_1.setBackground(SystemColor.controlDkShadow);&#xD;
+		Kartica11_1.setBounds(0, 0, 228, 50);&#xD;
+		Kartica1_1.add(Kartica11_1);&#xD;
+		&#xD;
+		JLabel lblStudent = new JLabel(&quot;STUDENT&quot;);&#xD;
+		lblStudent.setForeground(Color.WHITE);&#xD;
+		lblStudent.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.BOLD, 17));&#xD;
+		lblStudent.setBounds(73, 11, 84, 28);&#xD;
+		Kartica11_1.add(lblStudent);&#xD;
+		&#xD;
+		JLabel lblNewLabel_2_1 = new JLabel(&quot;Treninga mese\u010Dno&quot;);&#xD;
+		lblNewLabel_2_1.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 15));&#xD;
+		lblNewLabel_2_1.setBounds(60, 86, 144, 25);&#xD;
+		Kartica1_1.add(lblNewLabel_2_1);&#xD;
+		&#xD;
+		JLabel lblNewLabel_3 = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel_3.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-16-24.png&quot;));&#xD;
+		lblNewLabel_3.setBounds(30, 86, 36, 25);&#xD;
+		Kartica1_1.add(lblNewLabel_3);&#xD;
+		&#xD;
+		JLabel lblPersTr_1 = new JLabel(&quot;Personalni trener&quot;);&#xD;
+		lblPersTr_1.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 15));&#xD;
+		lblPersTr_1.setBounds(60, 137, 141, 26);&#xD;
+		Kartica1_1.add(lblPersTr_1);&#xD;
+		&#xD;
+		JLabel lblNewLabel_6 = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel_6.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-check-all-24.png&quot;));&#xD;
+		lblNewLabel_6.setBounds(30, 137, 46, 26);&#xD;
+		Kartica1_1.add(lblNewLabel_6);&#xD;
+		&#xD;
+		JLabel lblNewLabel_9_1 = new JLabel(&quot;2100 RSD&quot;);&#xD;
+		lblNewLabel_9_1.setFont(new Font(&quot;Bookman Old Style&quot;, Font.BOLD, 19));&#xD;
+		lblNewLabel_9_1.setBounds(60, 224, 111, 37);&#xD;
+		Kartica1_1.add(lblNewLabel_9_1);&#xD;
+		&#xD;
+		JButton btnKupite1_1 = new JButton(&quot;Kupite&quot;);&#xD;
+		btnKupite1_1.setForeground(new Color(255, 255, 255));&#xD;
+		btnKupite1_1.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 15));&#xD;
+		btnKupite1_1.setBackground(new Color(204, 51, 51));&#xD;
+		btnKupite1_1.setBounds(60, 276, 105, 31);&#xD;
+		btnKupite1_1.setFocusPainted(false);&#xD;
+		Kartica1_1.add(btnKupite1_1);&#xD;
+		&#xD;
+		JPanel Kartica1_2 = new JPanel();&#xD;
+		Kartica1_2.setLayout(null);&#xD;
+		Kartica1_2.setBackground(new Color(245, 245, 245));&#xD;
+		Kartica1_2.setBounds(690, 157, 228, 337);&#xD;
+		contentPane.add(Kartica1_2);&#xD;
+		&#xD;
+		JPanel Kartica11_3 = new JPanel();&#xD;
+		Kartica11_3.setBackground(SystemColor.controlDkShadow);&#xD;
+		Kartica11_3.setBounds(0, 0, 228, 50);&#xD;
+		Kartica1_2.add(Kartica11_3);&#xD;
+		Kartica11_3.setLayout(null);&#xD;
+		&#xD;
+		JLabel lblStandard = new JLabel(&quot;STANDARD&quot;);&#xD;
+		lblStandard.setForeground(Color.WHITE);&#xD;
+		lblStandard.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.BOLD, 17));&#xD;
+		lblStandard.setBounds(63, 11, 106, 28);&#xD;
+		Kartica11_3.add(lblStandard);&#xD;
+		&#xD;
+		JLabel lblNewLabel_2_1_1 = new JLabel(&quot;Treninga mese\u010Dno&quot;);&#xD;
+		lblNewLabel_2_1_1.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 15));&#xD;
+		lblNewLabel_2_1_1.setBounds(63, 87, 144, 25);&#xD;
+		Kartica1_2.add(lblNewLabel_2_1_1);&#xD;
+		&#xD;
+		JLabel lblNewLabel_4 = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel_4.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-16-24.png&quot;));&#xD;
+		lblNewLabel_4.setBounds(32, 87, 38, 25);&#xD;
+		Kartica1_2.add(lblNewLabel_4);&#xD;
+		&#xD;
+		JLabel lblPersTr = new JLabel(&quot;Personalni trener&quot;);&#xD;
+		lblPersTr.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 15));&#xD;
+		lblPersTr.setBounds(66, 139, 141, 26);&#xD;
+		Kartica1_2.add(lblPersTr);&#xD;
+		&#xD;
+		JLabel lblNewLabel_5 = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel_5.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-check-all-24.png&quot;));&#xD;
+		lblNewLabel_5.setBounds(32, 135, 46, 30);&#xD;
+		Kartica1_2.add(lblNewLabel_5);&#xD;
+		&#xD;
+		JLabel lblNewLabel_7 = new JLabel(&quot;Aplikacija  &quot;);&#xD;
+		lblNewLabel_7.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 15));&#xD;
+		lblNewLabel_7.setBounds(63, 188, 126, 20);&#xD;
+		Kartica1_2.add(lblNewLabel_7);&#xD;
+		&#xD;
+		JLabel lblNewLabel_8 = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel_8.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\mm.png&quot;));&#xD;
+		lblNewLabel_8.setBounds(32, 188, 46, 20);&#xD;
+		Kartica1_2.add(lblNewLabel_8);&#xD;
+		&#xD;
+		JLabel lblNewLabel_9_2 = new JLabel(&quot;3890 RSD&quot;);&#xD;
+		lblNewLabel_9_2.setFont(new Font(&quot;Bookman Old Style&quot;, Font.BOLD, 19));&#xD;
+		lblNewLabel_9_2.setBounds(58, 225, 114, 37);&#xD;
+		Kartica1_2.add(lblNewLabel_9_2);&#xD;
+		&#xD;
+		JButton btnKupite1_2 = new JButton(&quot;Kupite&quot;);&#xD;
+		btnKupite1_2.setForeground(new Color(255, 255, 255));&#xD;
+		btnKupite1_2.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 15));&#xD;
+		btnKupite1_2.setBackground(new Color(204, 51, 51));&#xD;
+		btnKupite1_2.setBounds(58, 275, 105, 31);&#xD;
+		btnKupite1_2.setFocusPainted(false);&#xD;
+		Kartica1_2.add(btnKupite1_2);&#xD;
+		&#xD;
+		JLabel lblNewLabel_1 = new JLabel(&quot;Kupite \u010Dlansku kartu&quot;);&#xD;
+		lblNewLabel_1.setFont(new Font(&quot;Times New Roman&quot;, Font.BOLD, 38));&#xD;
+		lblNewLabel_1.setBounds(319, 35, 385, 44);&#xD;
+		contentPane.add(lblNewLabel_1);&#xD;
+		&#xD;
+		JButton btnNazad = new JButton(&quot;Nazad&quot;);&#xD;
+		btnNazad.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameIzaberi JFIzaberi= new JFrameIzaberi();&#xD;
+				JFIzaberi.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnNazad.setBackground(new Color(255, 255, 255));&#xD;
+		btnNazad.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-enter-50.png&quot;));&#xD;
+		btnNazad.setBounds(872, 573, 81, 56);&#xD;
+		contentPane.add(btnNazad);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uO1aMHnkEeyigsMJK-spsg" name="main" isStatic="true" method="_uRa0IHnkEeyigsMJK-spsg">
+          <ownedComment xmi:id="_uRgTtXnkEeyigsMJK-spsg">
+            <body>Launch the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uO1aMXnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uO1aMnnkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uO1aM3nkEeyigsMJK-spsg" name="JFrameMesecnaKarta" method="_uRa0I3nkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uO1aNHnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uO1aNXnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_uRgTtnnkEeyigsMJK-spsg">
+            <body>Create the frame.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uO1aNnnkEeyigsMJK-spsg" type="_uO0zIHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uO2BQHnkEeyigsMJK-spsg" name="JFrameNutricionista">
+        <generalization xmi:id="_uRJHUHnkEeyigsMJK-spsg" general="_uQp_IXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRPN9XnkEeyigsMJK-spsg" name="contentPane" visibility="private" type="_uQp_I3nkEeyigsMJK-spsg" association="_uRmaUXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRP1AXnkEeyigsMJK-spsg" name="textFieldGodinaRodj" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRnBYXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRP1A3nkEeyigsMJK-spsg" name="textVisina" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRnBZHnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRP1BXnkEeyigsMJK-spsg" name="textTezina" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRnocXnkEeyigsMJK-spsg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRa0JXnkEeyigsMJK-spsg" name="main" specification="_uO2oUHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRa0JnnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uRa0J3nkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {&#xD;
+			public void run() {&#xD;
+				try {&#xD;
+					JFrameNutricionista frame = new JFrameNutricionista();&#xD;
+					frame.setVisible(true);&#xD;
+				} catch (Exception e) {&#xD;
+					e.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+		});&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRa0KHnkEeyigsMJK-spsg" name="JFrameNutricionista" specification="_uO3PYnnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRa0KXnkEeyigsMJK-spsg" type="_uO2BQHnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+		setBounds(100, 100, 853, 659);&#xD;
+		contentPane = new JPanel();&#xD;
+		contentPane.setBackground(new Color(255, 255, 255));&#xD;
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));&#xD;
+		setContentPane(contentPane);&#xD;
+		contentPane.setLayout(null);&#xD;
+		&#xD;
+		JPanel panel = new JPanel();&#xD;
+		panel.setBackground(new Color(255, 192, 203));&#xD;
+		panel.setBounds(-13, 0, 858, 100);&#xD;
+		contentPane.add(panel);&#xD;
+		panel.setLayout(null);&#xD;
+		&#xD;
+		JLabel lblNewLabel = new JLabel(&quot;Nutricionista Marija Popovi\u0107&quot;);&#xD;
+		lblNewLabel.setForeground(new Color(0, 0, 0));&#xD;
+		lblNewLabel.setBounds(273, 25, 393, 40);&#xD;
+		panel.add(lblNewLabel);&#xD;
+		lblNewLabel.setFont(new Font(&quot;Monotype Corsiva&quot;, Font.BOLD, 35));&#xD;
+		&#xD;
+		JLabel lblNewLabel_1 = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel_1.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-healthy-food-calories-calculator-48.png&quot;));&#xD;
+		lblNewLabel_1.setBounds(216, 17, 58, 48);&#xD;
+		panel.add(lblNewLabel_1);&#xD;
+		&#xD;
+		JLabel lblNewLabel_2 = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel_2.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-vegetarian-food-48.png&quot;));&#xD;
+		lblNewLabel_2.setBounds(676, 17, 48, 48);&#xD;
+		panel.add(lblNewLabel_2);&#xD;
+		&#xD;
+		JLabel lblLicniPodaci = new JLabel(&quot;Li\u010Dni podaci:&quot;);&#xD;
+		lblLicniPodaci.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 20));&#xD;
+		lblLicniPodaci.setBounds(22, 139, 132, 24);&#xD;
+		contentPane.add(lblLicniPodaci);&#xD;
+		&#xD;
+		JLabel lblGodinaRodj = new JLabel(&quot;Godina ro\u0111enja:&quot;);&#xD;
+		lblGodinaRodj.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 18));&#xD;
+		lblGodinaRodj.setBounds(201, 223, 163, 26);&#xD;
+		contentPane.add(lblGodinaRodj);&#xD;
+		&#xD;
+		textFieldGodinaRodj = new JTextField();&#xD;
+		textFieldGodinaRodj.setBackground(new Color(245, 245, 245));&#xD;
+		textFieldGodinaRodj.setBounds(363, 223, 227, 32);&#xD;
+		contentPane.add(textFieldGodinaRodj);&#xD;
+		textFieldGodinaRodj.setColumns(10);&#xD;
+		&#xD;
+		JLabel lblPol = new JLabel(&quot;Pol:&quot;);&#xD;
+		lblPol.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 18));&#xD;
+		lblPol.setBounds(298, 171, 46, 22);&#xD;
+		contentPane.add(lblPol);&#xD;
+		&#xD;
+		JCheckBox chckbxMusko = new JCheckBox(&quot;Mu\u0161ko&quot;);&#xD;
+		chckbxMusko.setBackground(new Color(245, 245, 245));&#xD;
+		chckbxMusko.setBounds(363, 174, 97, 23);&#xD;
+		contentPane.add(chckbxMusko);&#xD;
+		&#xD;
+		JCheckBox chckbxZensko = new JCheckBox(&quot;\u017Densko&quot;);&#xD;
+		chckbxZensko.setBackground(new Color(245, 245, 245));&#xD;
+		chckbxZensko.setBounds(487, 174, 97, 23);&#xD;
+		contentPane.add(chckbxZensko);&#xD;
+		&#xD;
+		JLabel lblVisina = new JLabel(&quot;Visina:&quot;);&#xD;
+		lblVisina.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 18));&#xD;
+		lblVisina.setBounds(283, 296, 70, 24);&#xD;
+		contentPane.add(lblVisina);&#xD;
+		&#xD;
+		JLabel lblTezina = new JLabel(&quot;Te\u017Eina:&quot;);&#xD;
+		lblTezina.setFont(new Font(&quot;Microsoft YaHei&quot;, Font.PLAIN, 18));&#xD;
+		lblTezina.setBounds(283, 360, 70, 24);&#xD;
+		contentPane.add(lblTezina);&#xD;
+		&#xD;
+		textVisina = new JTextField();&#xD;
+		textVisina.setBackground(new Color(245, 245, 245));&#xD;
+		textVisina.setBounds(363, 365, 227, 32);&#xD;
+		contentPane.add(textVisina);&#xD;
+		textVisina.setColumns(10);&#xD;
+		&#xD;
+		textTezina = new JTextField();&#xD;
+		textTezina.setBackground(new Color(245, 245, 245));&#xD;
+		textTezina.setBounds(363, 295, 227, 32);&#xD;
+		contentPane.add(textTezina);&#xD;
+		textTezina.setColumns(10);&#xD;
+		&#xD;
+		JPanel panel_1 = new JPanel();&#xD;
+		panel_1.setBackground(new Color(245, 245, 245));&#xD;
+		panel_1.setBounds(174, 153, 564, 268);&#xD;
+		contentPane.add(panel_1);&#xD;
+		&#xD;
+		JPanel panel_2 = new JPanel();&#xD;
+		panel_2.setBackground(new Color(255, 192, 203));&#xD;
+		panel_2.setBounds(0, 480, 837, 140);&#xD;
+		contentPane.add(panel_2);&#xD;
+		panel_2.setLayout(null);&#xD;
+		&#xD;
+		JTextArea textArea = new JTextArea();&#xD;
+		textArea.setBounds(174, 22, 562, 96);&#xD;
+		panel_2.add(textArea);&#xD;
+		&#xD;
+		JScrollBar scrollBar = new JScrollBar();&#xD;
+		scrollBar.setBounds(735, 22, 23, 96);&#xD;
+		panel_2.add(scrollBar);&#xD;
+		&#xD;
+		JButton btnNazad = new JButton(&quot;Nazad&quot;);&#xD;
+		btnNazad.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameIzaberi JFIzaberi= new JFrameIzaberi();&#xD;
+				JFIzaberi.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnNazad.setBackground(new Color(255, 255, 255));&#xD;
+		btnNazad.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-back-arrow-30.png&quot;));&#xD;
+		btnNazad.setBounds(31, 51, 110, 39);&#xD;
+		panel_2.add(btnNazad);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uO2oUHnkEeyigsMJK-spsg" name="main" isStatic="true" method="_uRa0JXnkEeyigsMJK-spsg">
+          <ownedComment xmi:id="_uRg6wHnkEeyigsMJK-spsg">
+            <body>Launch the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uO2oUXnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uO3PYHnkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uO3PYnnkEeyigsMJK-spsg" name="JFrameNutricionista" method="_uRa0KHnkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uO3PY3nkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uO3PZHnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_uRg6wXnkEeyigsMJK-spsg">
+            <body>Create the frame.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uO3PZXnkEeyigsMJK-spsg" type="_uO2BQHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uO4dgHnkEeyigsMJK-spsg" name="JFrameRegistracijaKorisnika">
+        <generalization xmi:id="_uRJuYHnkEeyigsMJK-spsg" general="_uQp_IXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRQcEXnkEeyigsMJK-spsg" name="contentPane" visibility="private" type="_uQp_I3nkEeyigsMJK-spsg" association="_uRoPgXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRQcE3nkEeyigsMJK-spsg" name="textFieldIme" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRo2kHnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRRDIXnkEeyigsMJK-spsg" name="textFieldPrezime" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRo2k3nkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRRDI3nkEeyigsMJK-spsg" name="textAdresa" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRpdoXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRRqMXnkEeyigsMJK-spsg" name="textJmbg" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRqEsXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRRqM3nkEeyigsMJK-spsg" name="textBrTelefona" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRqEtHnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRSRQXnkEeyigsMJK-spsg" name="textFieldTezina" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRqrwXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRSRQ3nkEeyigsMJK-spsg" name="textFieldVisina" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uRrS0HnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRSRRXnkEeyigsMJK-spsg" name="textField" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uR2R8XnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRS4UHnkEeyigsMJK-spsg" name="textField_1" visibility="private" type="_uQu3oHnkEeyigsMJK-spsg" association="_uR25AXnkEeyigsMJK-spsg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRbbMHnkEeyigsMJK-spsg" name="main" specification="_uO6SsHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRbbMXnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uRbbMnnkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {&#xD;
+			public void run() {&#xD;
+				try {&#xD;
+					JFrameRegistracijaKorisnika frame = new JFrameRegistracijaKorisnika();&#xD;
+					frame.setVisible(true);&#xD;
+				} catch (Exception e) {&#xD;
+					e.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+		});&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRbbM3nkEeyigsMJK-spsg" name="JFrameRegistracijaKorisnika" specification="_uO65wXnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRbbNHnkEeyigsMJK-spsg" type="_uO4dgHnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+		setBounds(100, 100, 1076, 628);&#xD;
+		contentPane = new JPanel();&#xD;
+		contentPane.setBackground(new Color(205, 92, 92));&#xD;
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));&#xD;
+		setContentPane(contentPane);&#xD;
+		contentPane.setLayout(null);&#xD;
+		&#xD;
+		JPanel panelRegistracija = new JPanel();&#xD;
+		panelRegistracija.setBorder(new LineBorder(new Color(105, 105, 105)));&#xD;
+		panelRegistracija.setToolTipText(&quot;&quot;);&#xD;
+		panelRegistracija.setForeground(new Color(0, 0, 0));&#xD;
+		panelRegistracija.setBackground(new Color(205, 92, 92));&#xD;
+		panelRegistracija.setBounds(30, 98, 332, 320);&#xD;
+		contentPane.add(panelRegistracija);&#xD;
+		panelRegistracija.setLayout(null);&#xD;
+		&#xD;
+		JLabel lblIme = new JLabel(&quot;Ime:&quot;);&#xD;
+		lblIme.setBackground(new Color(255, 255, 255));&#xD;
+		lblIme.setForeground(new Color(255, 255, 255));&#xD;
+		lblIme.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblIme.setBounds(10, 33, 46, 14);&#xD;
+		panelRegistracija.add(lblIme);&#xD;
+		&#xD;
+		textFieldIme = new JTextField();&#xD;
+		textFieldIme.setBackground(new Color(245, 245, 245));&#xD;
+		textFieldIme.setForeground(new Color(0, 0, 0));&#xD;
+		textFieldIme.setBounds(102, 32, 184, 20);&#xD;
+		panelRegistracija.add(textFieldIme);&#xD;
+		textFieldIme.setColumns(10);&#xD;
+		&#xD;
+		JLabel lblPrezime = new JLabel(&quot;Prezime:&quot;);&#xD;
+		lblPrezime.setForeground(new Color(255, 255, 255));&#xD;
+		lblPrezime.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblPrezime.setBounds(10, 79, 82, 14);&#xD;
+		panelRegistracija.add(lblPrezime);&#xD;
+		&#xD;
+		textFieldPrezime = new JTextField();&#xD;
+		textFieldPrezime.setBackground(new Color(245, 245, 245));&#xD;
+		textFieldPrezime.setText(&quot;&quot;);&#xD;
+		textFieldPrezime.setBounds(102, 78, 184, 20);&#xD;
+		panelRegistracija.add(textFieldPrezime);&#xD;
+		textFieldPrezime.setColumns(10);&#xD;
+		&#xD;
+		JLabel lblAdresa = new JLabel(&quot;Adresa:&quot;);&#xD;
+		lblAdresa.setForeground(new Color(255, 255, 255));&#xD;
+		lblAdresa.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblAdresa.setBounds(10, 127, 73, 14);&#xD;
+		panelRegistracija.add(lblAdresa);&#xD;
+		&#xD;
+		textAdresa = new JTextField();&#xD;
+		textAdresa.setBackground(new Color(245, 245, 245));&#xD;
+		textAdresa.setBounds(102, 127, 184, 20);&#xD;
+		panelRegistracija.add(textAdresa);&#xD;
+		textAdresa.setColumns(10);&#xD;
+		&#xD;
+		JLabel lblJMBG = new JLabel(&quot;JMBG:&quot;);&#xD;
+		lblJMBG.setForeground(new Color(255, 255, 255));&#xD;
+		lblJMBG.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblJMBG.setBounds(10, 182, 60, 14);&#xD;
+		panelRegistracija.add(lblJMBG);&#xD;
+		&#xD;
+		textJmbg = new JTextField();&#xD;
+		textJmbg.setBackground(new Color(245, 245, 245));&#xD;
+		textJmbg.setBounds(102, 181, 184, 20);&#xD;
+		panelRegistracija.add(textJmbg);&#xD;
+		textJmbg.setColumns(10);&#xD;
+		&#xD;
+		JLabel lblTelefon = new JLabel(&quot;Broj telefona:&quot;);&#xD;
+		lblTelefon.setForeground(new Color(255, 255, 255));&#xD;
+		lblTelefon.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblTelefon.setBounds(10, 230, 125, 19);&#xD;
+		panelRegistracija.add(lblTelefon);&#xD;
+		&#xD;
+		textBrTelefona = new JTextField();&#xD;
+		textBrTelefona.setBackground(new Color(245, 245, 245));&#xD;
+		textBrTelefona.setBounds(135, 231, 151, 20);&#xD;
+		panelRegistracija.add(textBrTelefona);&#xD;
+		textBrTelefona.setColumns(10);&#xD;
+		&#xD;
+		JPanel panel = new JPanel();&#xD;
+		panel.setBorder(new LineBorder(new Color(105, 105, 105)));&#xD;
+		panel.setBackground(new Color(205, 92, 92));&#xD;
+		panel.setBounds(359, 98, 362, 320);&#xD;
+		contentPane.add(panel);&#xD;
+		panel.setLayout(null);&#xD;
+		&#xD;
+		JLabel lblPol = new JLabel(&quot;Pol:&quot;);&#xD;
+		lblPol.setForeground(new Color(255, 255, 255));&#xD;
+		lblPol.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblPol.setBounds(30, 36, 46, 14);&#xD;
+		panel.add(lblPol);&#xD;
+		&#xD;
+		JRadioButton rdbtnNewRadioButton = new JRadioButton(&quot;Mu\u0161ko&quot;);&#xD;
+		rdbtnNewRadioButton.setFont(new Font(&quot;Verdana&quot;, Font.PLAIN, 12));&#xD;
+		rdbtnNewRadioButton.setBackground(new Color(205, 92, 92));&#xD;
+		rdbtnNewRadioButton.setBounds(87, 33, 79, 23);&#xD;
+		panel.add(rdbtnNewRadioButton);&#xD;
+		&#xD;
+		JRadioButton rdbtnNewRadioButton_1 = new JRadioButton(&quot;\u017Densko&quot;);&#xD;
+		rdbtnNewRadioButton_1.setFont(new Font(&quot;Verdana&quot;, Font.PLAIN, 12));&#xD;
+		rdbtnNewRadioButton_1.setBackground(new Color(205, 92, 92));&#xD;
+		rdbtnNewRadioButton_1.setBounds(168, 33, 109, 23);&#xD;
+		panel.add(rdbtnNewRadioButton_1);&#xD;
+		&#xD;
+		JLabel lblTezina = new JLabel(&quot;Te\u017Eina:&quot;);&#xD;
+		lblTezina.setForeground(new Color(255, 255, 255));&#xD;
+		lblTezina.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblTezina.setBounds(30, 77, 62, 14);&#xD;
+		panel.add(lblTezina);&#xD;
+		&#xD;
+		textFieldTezina = new JTextField();&#xD;
+		textFieldTezina.setBackground(new Color(245, 245, 245));&#xD;
+		textFieldTezina.setBounds(95, 76, 222, 20);&#xD;
+		panel.add(textFieldTezina);&#xD;
+		textFieldTezina.setColumns(10);&#xD;
+		&#xD;
+		JLabel lblVisina = new JLabel(&quot;Visina:&quot;);&#xD;
+		lblVisina.setForeground(new Color(255, 255, 255));&#xD;
+		lblVisina.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblVisina.setBounds(30, 124, 62, 14);&#xD;
+		panel.add(lblVisina);&#xD;
+		&#xD;
+		textFieldVisina = new JTextField();&#xD;
+		textFieldVisina.setBackground(new Color(245, 245, 245));&#xD;
+		textFieldVisina.setBounds(95, 123, 222, 20);&#xD;
+		panel.add(textFieldVisina);&#xD;
+		textFieldVisina.setColumns(10);&#xD;
+		&#xD;
+		JLabel lblDatum = new JLabel(&quot;Datum:&quot;);&#xD;
+		lblDatum.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblDatum.setForeground(new Color(255, 255, 255));&#xD;
+		lblDatum.setBounds(30, 176, 62, 14);&#xD;
+		panel.add(lblDatum);&#xD;
+		&#xD;
+		JDateChooser dateChooserDatum = new JDateChooser();&#xD;
+		dateChooserDatum.setForeground(new Color(0, 0, 0));&#xD;
+		dateChooserDatum.setBounds(95, 176, 222, 20);&#xD;
+		panel.add(dateChooserDatum);&#xD;
+		&#xD;
+		JLabel lblKorIme = new JLabel(&quot;Korisni\u010Dko ime:&quot;);&#xD;
+		lblKorIme.setForeground(Color.WHITE);&#xD;
+		lblKorIme.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblKorIme.setBounds(30, 228, 136, 14);&#xD;
+		panel.add(lblKorIme);&#xD;
+		&#xD;
+		JLabel lblLozinka = new JLabel(&quot;Lozinka:&quot;);&#xD;
+		lblLozinka.setForeground(Color.WHITE);&#xD;
+		lblLozinka.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblLozinka.setBounds(30, 277, 79, 14);&#xD;
+		panel.add(lblLozinka);&#xD;
+		&#xD;
+		textField = new JTextField();&#xD;
+		textField.setBounds(168, 227, 149, 20);&#xD;
+		panel.add(textField);&#xD;
+		textField.setColumns(10);&#xD;
+		&#xD;
+		textField_1 = new JTextField();&#xD;
+		textField_1.setBounds(101, 276, 216, 20);&#xD;
+		panel.add(textField_1);&#xD;
+		textField_1.setColumns(10);&#xD;
+		&#xD;
+		JButton btnPrijava = new JButton(&quot;&quot;);&#xD;
+		btnPrijava.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameIzaberi JFIzaberi= new JFrameIzaberi();&#xD;
+				JFIzaberi.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnPrijava.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\mm.png&quot;));&#xD;
+		btnPrijava.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 13));&#xD;
+		btnPrijava.setBackground(new Color(255, 255, 255));&#xD;
+		btnPrijava.setBounds(962, 542, 88, 36);&#xD;
+		contentPane.add(btnPrijava);&#xD;
+		&#xD;
+		JButton btnNazad = new JButton(&quot;&quot;);&#xD;
+		btnNazad.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-back-arrow-30.png&quot;));&#xD;
+		btnNazad.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameLogin JFLogin= new JFrameLogin();&#xD;
+				JFLogin.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnNazad.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 13));&#xD;
+		btnNazad.setBackground(new Color(255, 255, 255));&#xD;
+		btnNazad.setBounds(21, 542, 88, 36);&#xD;
+		contentPane.add(btnNazad);&#xD;
+		&#xD;
+		JPanel panel_1 = new JPanel();&#xD;
+		panel_1.setBackground(new Color(255, 255, 255));&#xD;
+		panel_1.setBounds(0, 0, 1060, 69);&#xD;
+		contentPane.add(panel_1);&#xD;
+		panel_1.setLayout(null);&#xD;
+		&#xD;
+		JLabel lblKreiranjenaloga = new JLabel(&quot;Kreiranje novog naloga&quot;);&#xD;
+		lblKreiranjenaloga.setBackground(new Color(0, 0, 0));&#xD;
+		lblKreiranjenaloga.setForeground(new Color(0, 0, 0));&#xD;
+		lblKreiranjenaloga.setBounds(336, 11, 404, 47);&#xD;
+		lblKreiranjenaloga.setFont(new Font(&quot;MingLiU-ExtB&quot;, Font.BOLD, 34));&#xD;
+		panel_1.add(lblKreiranjenaloga);&#xD;
+		&#xD;
+		JLabel lblNewLabel = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-new-contact-30.png&quot;));&#xD;
+		lblNewLabel.setBounds(741, 11, 46, 47);&#xD;
+		panel_1.add(lblNewLabel);&#xD;
+		&#xD;
+		JTextArea textArea = new JTextArea();&#xD;
+		textArea.setBounds(757, 98, 293, 320);&#xD;
+		contentPane.add(textArea);&#xD;
+		&#xD;
+		JButton btnNewButton = new JButton(&quot;Submit&quot;);&#xD;
+		btnNewButton.setBackground(new Color(255, 228, 225));&#xD;
+		btnNewButton.setFont(new Font(&quot;Microsoft YaHei Light&quot;, Font.BOLD, 13));&#xD;
+		btnNewButton.setBounds(322, 457, 117, 36);&#xD;
+		contentPane.add(btnNewButton);&#xD;
+		&#xD;
+		JLabel lblNewLabel_1 = new JLabel(&quot;&quot;);&#xD;
+		lblNewLabel_1.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\track-and-field (1).png&quot;));&#xD;
+		lblNewLabel_1.setBounds(890, 529, 72, 60);&#xD;
+		contentPane.add(lblNewLabel_1);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uO6SsHnkEeyigsMJK-spsg" name="main" isStatic="true" method="_uRbbMHnkEeyigsMJK-spsg">
+          <ownedComment xmi:id="_uRg6wnnkEeyigsMJK-spsg">
+            <body>Launch the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uO6SsXnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uO6SsnnkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uO65wXnkEeyigsMJK-spsg" name="JFrameRegistracijaKorisnika" method="_uRbbM3nkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uO65wnnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uO65w3nkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_uRg6w3nkEeyigsMJK-spsg">
+            <body>Create the frame.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uO65xHnkEeyigsMJK-spsg" type="_uO4dgHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uO9WAHnkEeyigsMJK-spsg" name="JFrameRezervisanje">
+        <generalization xmi:id="_uRK8gHnkEeyigsMJK-spsg" general="_uQp_IXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRS4UnnkEeyigsMJK-spsg" name="contentPane" visibility="private" type="_uQp_I3nkEeyigsMJK-spsg" association="_uR3gEHnkEeyigsMJK-spsg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRbbNXnkEeyigsMJK-spsg" name="main" specification="_uO99EHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRbbNnnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uRbbN3nkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {&#xD;
+			public void run() {&#xD;
+				try {&#xD;
+					JFrameRezervisanje frame = new JFrameRezervisanje();&#xD;
+					frame.setVisible(true);&#xD;
+				} catch (Exception e) {&#xD;
+					e.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+		});&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRbbOHnkEeyigsMJK-spsg" name="JFrameRezervisanje" specification="_uO99FHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRbbOXnkEeyigsMJK-spsg" type="_uO9WAHnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+		setBounds(100, 100, 590, 566);&#xD;
+		contentPane = new JPanel();&#xD;
+		contentPane.setBackground(new Color(255, 255, 255));&#xD;
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));&#xD;
+		setContentPane(contentPane);&#xD;
+		contentPane.setLayout(null);&#xD;
+		&#xD;
+		JPanel panel = new JPanel();&#xD;
+		panel.setBackground(new Color(205, 92, 92));&#xD;
+		panel.setBounds(0, 0, 574, 97);&#xD;
+		contentPane.add(panel);&#xD;
+		panel.setLayout(null);&#xD;
+		&#xD;
+		JPanel panel_1 = new JPanel();&#xD;
+		panel_1.setBounds(52, 11, 475, 63);&#xD;
+		panel.add(panel_1);&#xD;
+		panel_1.setLayout(null);&#xD;
+		&#xD;
+		JLabel lblRezervisite = new JLabel(&quot;Rezervi\u0161ite termin treninga&quot;);&#xD;
+		lblRezervisite.setForeground(new Color(165, 42, 42));&#xD;
+		lblRezervisite.setFont(new Font(&quot;Perpetua&quot;, Font.BOLD, 34));&#xD;
+		lblRezervisite.setBounds(42, 11, 399, 41);&#xD;
+		panel_1.add(lblRezervisite);&#xD;
+		&#xD;
+		JLabel lblProgram = new JLabel(&quot;Program:&quot;);&#xD;
+		lblProgram.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblProgram.setBounds(161, 132, 89, 25);&#xD;
+		contentPane.add(lblProgram);&#xD;
+		&#xD;
+		JComboBox comboBoxProgram = new JComboBox();&#xD;
+		comboBoxProgram.setModel(new DefaultComboBoxModel(new String[] {&quot;CrossFit&quot;, &quot;OpenGym&quot;, &quot;\u0160kola sporta&quot;}));&#xD;
+		comboBoxProgram.setToolTipText(&quot;&quot;);&#xD;
+		comboBoxProgram.setEditable(true);&#xD;
+		comboBoxProgram.setBackground(new Color(255, 182, 193));&#xD;
+		comboBoxProgram.setBounds(272, 135, 144, 22);&#xD;
+		contentPane.add(comboBoxProgram);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		JLabel lblIzaberiTrenera = new JLabel(&quot;Izaberite trenera:&quot;);&#xD;
+		lblIzaberiTrenera.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblIzaberiTrenera.setBounds(92, 187, 170, 14);&#xD;
+		contentPane.add(lblIzaberiTrenera);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		JComboBox comboBox = new JComboBox();&#xD;
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {&quot;Aca&quot;, &quot;Boki&quot;, &quot;Milos&quot;, &quot;Danijela&quot;}));&#xD;
+		comboBox.setEditable(true);&#xD;
+		comboBox.setBackground(new Color(72, 209, 204));&#xD;
+		comboBox.setBounds(272, 185, 144, 22);&#xD;
+		contentPane.add(comboBox);&#xD;
+		&#xD;
+		JDayChooser dayChooser = new JDayChooser();&#xD;
+		dayChooser.setBounds(272, 247, 182, 133);&#xD;
+		contentPane.add(dayChooser);&#xD;
+		&#xD;
+		JLabel lblDatum = new JLabel(&quot;Datum:&quot;);&#xD;
+		lblDatum.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblDatum.setBounds(180, 247, 82, 14);&#xD;
+		contentPane.add(lblDatum);&#xD;
+		&#xD;
+		JLabel lblVremeTr = new JLabel(&quot;Vreme treninga:&quot;);&#xD;
+		lblVremeTr.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 15));&#xD;
+		lblVremeTr.setBounds(117, 411, 133, 25);&#xD;
+		contentPane.add(lblVremeTr);&#xD;
+		&#xD;
+		JComboBox comboBox_1 = new JComboBox();&#xD;
+		comboBox_1.setBackground(new Color(255, 160, 122));&#xD;
+		comboBox_1.setEditable(true);&#xD;
+		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {&quot;10:00-11:00&quot;, &quot;12:00-13:00&quot;, &quot;14:00-15:00&quot;, &quot;17:00-16:00&quot;, &quot;19:00-20:00&quot;, &quot;21:00-22:00&quot;}));&#xD;
+		comboBox_1.setBounds(272, 414, 144, 22);&#xD;
+		contentPane.add(comboBox_1);&#xD;
+		&#xD;
+		JButton btnSubmit = new JButton(&quot;&quot;);&#xD;
+		btnSubmit.setIcon(new ImageIcon(&quot;C:\\Users\\Mina\\Desktop\\2 kolokvijum oop\\1-2020\\image\\icons8-enter-50.png&quot;));&#xD;
+		btnSubmit.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				JFrameIzaberi JFrIzaberi= new JFrameIzaberi();&#xD;
+				JFrIzaberi.show();&#xD;
+				dispose();&#xD;
+			}&#xD;
+		});&#xD;
+		btnSubmit.setForeground(new Color(255, 255, 255));&#xD;
+		btnSubmit.setBackground(new Color(255, 255, 255));&#xD;
+		btnSubmit.setFont(new Font(&quot;Verdana&quot;, Font.BOLD, 13));&#xD;
+		btnSubmit.setBounds(497, 462, 67, 54);&#xD;
+		contentPane.add(btnSubmit);&#xD;
+		&#xD;
+		JButton btnSumbitt = new JButton(&quot;Submit&quot;);&#xD;
+		btnSumbitt.setBounds(56, 481, 89, 23);&#xD;
+		contentPane.add(btnSumbitt);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uO99EHnkEeyigsMJK-spsg" name="main" isStatic="true" method="_uRbbNXnkEeyigsMJK-spsg">
+          <ownedComment xmi:id="_uRg6xHnkEeyigsMJK-spsg">
+            <body>Launch the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uO99EXnkEeyigsMJK-spsg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uO99EnnkEeyigsMJK-spsg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uO99FHnkEeyigsMJK-spsg" name="JFrameRezervisanje" method="_uRbbOHnkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uO-kIHnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uO-kIXnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_uRg6xXnkEeyigsMJK-spsg">
+            <body>Create the frame.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_uO-kInnkEeyigsMJK-spsg" type="_uO9WAHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uO_LMHnkEeyigsMJK-spsg" name="Korisnik">
+        <generalization xmi:id="_uRBLgHnkEeyigsMJK-spsg" general="_uPFR0HnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRTfYXnkEeyigsMJK-spsg" name="jmbg">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRTfYnnkEeyigsMJK-spsg" name="korisnickoIme">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRUGcHnkEeyigsMJK-spsg" name="lozinka">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRUGcXnkEeyigsMJK-spsg" name="visina">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRUGcnnkEeyigsMJK-spsg" name="tezina">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRUGc3nkEeyigsMJK-spsg" name="clanskaKarta" visibility="private" type="_uOrpMHnkEeyigsMJK-spsg" association="_uR3gE3nkEeyigsMJK-spsg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRcCQHnkEeyigsMJK-spsg" name="Korisnik" specification="_uPAZUHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRcCQXnkEeyigsMJK-spsg" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCQnnkEeyigsMJK-spsg" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCQ3nkEeyigsMJK-spsg" name="pol">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCRHnkEeyigsMJK-spsg" name="godine">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCRXnkEeyigsMJK-spsg" name="telefon">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCRnnkEeyigsMJK-spsg" name="adresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCR3nkEeyigsMJK-spsg" name="jmbg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCSHnkEeyigsMJK-spsg" name="korisnickoIme">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCSXnkEeyigsMJK-spsg" name="lozinka">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCSnnkEeyigsMJK-spsg" name="visina">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCS3nkEeyigsMJK-spsg" name="tezina">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcCTHnkEeyigsMJK-spsg" type="_uO_LMHnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>super(ime,prezime,pol,godine,telefon,adresa);&#xD;
+		this.jmbg = jmbg;&#xD;
+		this.korisnickoIme = korisnickoIme;&#xD;
+		this.lozinka = lozinka;&#xD;
+		this.visina = visina;&#xD;
+		this.tezina = tezina;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRcCTXnkEeyigsMJK-spsg" name="login" specification="_uPBAbXnkEeyigsMJK-spsg">
+          <language>java</language>
+          <body>// login&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRcCTnnkEeyigsMJK-spsg" name="registracija" specification="_uPBAbnnkEeyigsMJK-spsg">
+          <language>java</language>
+          <body>// registracija&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uO_yQHnkEeyigsMJK-spsg" name="Korisnik">
+          <eAnnotations xmi:id="_uO_yQXnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uO_yQnnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uO_yRHnkEeyigsMJK-spsg" type="_uO_LMHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPAZUHnkEeyigsMJK-spsg" name="Korisnik" method="_uRcCQHnkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uPBAannkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uPBAa3nkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uPAZUXnkEeyigsMJK-spsg" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAYHnkEeyigsMJK-spsg" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAYXnkEeyigsMJK-spsg" name="pol">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAYnnkEeyigsMJK-spsg" name="godine">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAY3nkEeyigsMJK-spsg" name="telefon">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAZHnkEeyigsMJK-spsg" name="adresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAZXnkEeyigsMJK-spsg" name="jmbg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAZnnkEeyigsMJK-spsg" name="korisnickoIme">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAZ3nkEeyigsMJK-spsg" name="lozinka">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAaHnkEeyigsMJK-spsg" name="visina">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAaXnkEeyigsMJK-spsg" name="tezina">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPBAbHnkEeyigsMJK-spsg" type="_uO_LMHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPBAbXnkEeyigsMJK-spsg" name="login" method="_uRcCTXnkEeyigsMJK-spsg"/>
+        <ownedOperation xmi:id="_uPBAbnnkEeyigsMJK-spsg" name="registracija" method="_uRcCTnnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uPCOgHnkEeyigsMJK-spsg" name="Nutricionista">
+        <generalization xmi:id="_uRBykHnkEeyigsMJK-spsg" general="_uPFR0HnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRUGdXnkEeyigsMJK-spsg" name="godine_rada">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRUtgHnkEeyigsMJK-spsg" name="cenaPoSatu">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRUtgXnkEeyigsMJK-spsg" name="brojSati">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRUtgnnkEeyigsMJK-spsg" name="broj_klijenata">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRUtg3nkEeyigsMJK-spsg" name="daLiImadiploma">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRcpUHnkEeyigsMJK-spsg" name="Nutricionista" specification="_uPC1kHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRcpUXnkEeyigsMJK-spsg" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpUnnkEeyigsMJK-spsg" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpU3nkEeyigsMJK-spsg" name="pol">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpVHnkEeyigsMJK-spsg" name="godine">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpVXnkEeyigsMJK-spsg" name="telefon">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpVnnkEeyigsMJK-spsg" name="adresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpV3nkEeyigsMJK-spsg" name="godine_rada">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpWHnkEeyigsMJK-spsg" name="cenaPoSatu">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpWXnkEeyigsMJK-spsg" name="brojSati">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpWnnkEeyigsMJK-spsg" name="broj_klijenata">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpW3nkEeyigsMJK-spsg" name="daLiImadiploma">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRcpXHnkEeyigsMJK-spsg" type="_uPCOgHnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>super(ime, prezime, pol, godine, telefon, adresa);&#xD;
+		this.godine_rada = godine_rada;&#xD;
+		this.cenaPoSatu = cenaPoSatu;&#xD;
+		this.brojSati = brojSati;&#xD;
+		this.broj_klijenata = broj_klijenata;&#xD;
+		this.daLiImadiploma = daLiImadiploma;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRcpXXnkEeyigsMJK-spsg" name="toString" specification="_uPDcrHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRcpXnnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Nutricionista [godine_rada=&quot; + godine_rada + &quot;, broj_klijenata=&quot; + broj_klijenata + &quot;, daLiImadiploma=&quot;&#xD;
+				+ daLiImadiploma + &quot;, getIme()=&quot; + getIme() + &quot;, getPrezime()=&quot; + getPrezime() + &quot;, isPol()=&quot; + isPol()&#xD;
+				+ &quot;, getGodine()=&quot; + getGodine() + &quot;, getTelefon()=&quot; + getTelefon() + &quot;, getAdresa()=&quot; + getAdresa()&#xD;
+				+ &quot;]&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRdQYHnkEeyigsMJK-spsg" name="planIshrane" specification="_uPEDtHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRdQYXnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRdQYnnkEeyigsMJK-spsg" name="plata" specification="_uPEqwXnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRdQY3nkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.brojSati * this.cenaPoSatu;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uPC1kHnkEeyigsMJK-spsg" name="Nutricionista" method="_uRcpUHnkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uPDcqXnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uPDcqnnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uPC1kXnkEeyigsMJK-spsg" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPC1knnkEeyigsMJK-spsg" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPDcoHnkEeyigsMJK-spsg" name="pol">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPDcoXnkEeyigsMJK-spsg" name="godine">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPDconnkEeyigsMJK-spsg" name="telefon">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPDco3nkEeyigsMJK-spsg" name="adresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPDcpHnkEeyigsMJK-spsg" name="godine_rada">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPDcpXnkEeyigsMJK-spsg" name="cenaPoSatu">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPDcpnnkEeyigsMJK-spsg" name="brojSati">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPDcp3nkEeyigsMJK-spsg" name="broj_klijenata">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPDcqHnkEeyigsMJK-spsg" name="daLiImadiploma">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPDcq3nkEeyigsMJK-spsg" type="_uPCOgHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPDcrHnkEeyigsMJK-spsg" name="toString" method="_uRcpXXnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uPEDsHnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPEDtHnkEeyigsMJK-spsg" name="planIshrane" method="_uRdQYHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uPEqwHnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPEqwXnkEeyigsMJK-spsg" name="plata" method="_uRdQYnnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uPEqwnnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uPFR0HnkEeyigsMJK-spsg" name="Osoba">
+        <ownedAttribute xmi:id="_uRUthHnkEeyigsMJK-spsg" name="ime">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRVUkHnkEeyigsMJK-spsg" name="prezime">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRVUkXnkEeyigsMJK-spsg" name="pol">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRVUknnkEeyigsMJK-spsg" name="godine">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRVUk3nkEeyigsMJK-spsg" name="telefon">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRVUlHnkEeyigsMJK-spsg" name="adresa">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRdQZHnkEeyigsMJK-spsg" name="Osoba" specification="_uPGf9XnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRdQZXnkEeyigsMJK-spsg" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQZnnkEeyigsMJK-spsg" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQZ3nkEeyigsMJK-spsg" name="pol">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQaHnkEeyigsMJK-spsg" name="godine">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQaXnkEeyigsMJK-spsg" name="telefon">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQannkEeyigsMJK-spsg" name="adresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQa3nkEeyigsMJK-spsg" type="_uPFR0HnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.ime = ime;&#xD;
+		this.prezime = prezime;&#xD;
+		this.pol = pol;&#xD;
+		this.godine = godine;&#xD;
+		this.telefon = telefon;&#xD;
+		this.adresa = adresa;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uPGf8HnkEeyigsMJK-spsg" name="Osoba">
+          <eAnnotations xmi:id="_uPGf8XnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uPGf8nnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uPGf9HnkEeyigsMJK-spsg" type="_uPFR0HnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPGf9XnkEeyigsMJK-spsg" name="Osoba" method="_uRdQZHnkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uPHHBnnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uPHHB3nkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uPHHAHnkEeyigsMJK-spsg" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPHHAXnkEeyigsMJK-spsg" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPHHAnnkEeyigsMJK-spsg" name="pol">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPHHA3nkEeyigsMJK-spsg" name="godine">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPHHBHnkEeyigsMJK-spsg" name="telefon">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPHHBXnkEeyigsMJK-spsg" name="adresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPHHCHnkEeyigsMJK-spsg" type="_uPFR0HnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uPHuEHnkEeyigsMJK-spsg" name="Trener">
+        <generalization xmi:id="_uRDAsHnkEeyigsMJK-spsg" general="_uPFR0HnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRV7oHnkEeyigsMJK-spsg" name="iskustvo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRV7oXnkEeyigsMJK-spsg" name="cenaPoSatu">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRWisHnkEeyigsMJK-spsg" name="brojSati">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRWisXnkEeyigsMJK-spsg" name="brojTreninga">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRWisnnkEeyigsMJK-spsg" name="godine_rada">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRdQbHnkEeyigsMJK-spsg" name="Trener" specification="_uPI8MXnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRdQbXnkEeyigsMJK-spsg" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQbnnkEeyigsMJK-spsg" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQb3nkEeyigsMJK-spsg" name="pol">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQcHnkEeyigsMJK-spsg" name="godine">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQcXnkEeyigsMJK-spsg" name="telefon">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQcnnkEeyigsMJK-spsg" name="adresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQc3nkEeyigsMJK-spsg" name="iskustvo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQdHnkEeyigsMJK-spsg" name="godine_rada">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRdQdXnkEeyigsMJK-spsg" type="_uPHuEHnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>super(ime,prezime,pol,godine,telefon,adresa);&#xD;
+		this.iskustvo = iskustvo;&#xD;
+		this.godine_rada = godine_rada;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRd3cHnkEeyigsMJK-spsg" name="toString" specification="_uPJjQ3nkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRd3cXnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Trener [iskustvo=&quot; + iskustvo + &quot;, godine_rada=&quot; + godine_rada + &quot;, getIme()=&quot; + getIme()&#xD;
+				+ &quot;, getPrezime()=&quot; + getPrezime() + &quot;, isPol()=&quot; + isPol() + &quot;, getGodine()=&quot; + getGodine()&#xD;
+				+ &quot;, getTelefon()=&quot; + getTelefon() + &quot;, getAdresa()=&quot; + getAdresa() + &quot;]&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRd3cnnkEeyigsMJK-spsg" name="plata" specification="_uPKKUnnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRd3c3nkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.brojSati * this.cenaPoSatu;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRd3dHnkEeyigsMJK-spsg" name="brojTreninga" specification="_uPKKVHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRd3dXnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.iskustvo ? this.brojTreninga : 2;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uPIVIHnkEeyigsMJK-spsg" name="Trener">
+          <eAnnotations xmi:id="_uPIVIXnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uPIVInnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uPI8MHnkEeyigsMJK-spsg" type="_uPHuEHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPI8MXnkEeyigsMJK-spsg" name="Trener" method="_uRdQbHnkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uPJjQHnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uPJjQXnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uPI8MnnkEeyigsMJK-spsg" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPI8M3nkEeyigsMJK-spsg" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPI8NHnkEeyigsMJK-spsg" name="pol">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPI8NXnkEeyigsMJK-spsg" name="godine">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPI8NnnkEeyigsMJK-spsg" name="telefon">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPI8N3nkEeyigsMJK-spsg" name="adresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPI8OHnkEeyigsMJK-spsg" name="iskustvo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPI8OXnkEeyigsMJK-spsg" name="godine_rada">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPJjQnnkEeyigsMJK-spsg" type="_uPHuEHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPJjQ3nkEeyigsMJK-spsg" name="toString" method="_uRd3cHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uPJjRHnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPKKUnnkEeyigsMJK-spsg" name="plata" method="_uRd3cnnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uPKKU3nkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPKKVHnkEeyigsMJK-spsg" name="brojTreninga" method="_uRd3dHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uPKKVXnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uPKxYHnkEeyigsMJK-spsg" name="Trening">
+        <ownedAttribute xmi:id="_uRXJwHnkEeyigsMJK-spsg" name="naziv">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRXJwXnkEeyigsMJK-spsg" name="datum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRXJwnnkEeyigsMJK-spsg" name="vreme">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_uRXJw3nkEeyigsMJK-spsg" name="nutricionista" visibility="private" type="_uPCOgHnkEeyigsMJK-spsg" association="_uR4HIXnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRXw0XnkEeyigsMJK-spsg" name="trener" visibility="private" type="_uPHuEHnkEeyigsMJK-spsg" association="_uR4HJHnkEeyigsMJK-spsg"/>
+        <ownedAttribute xmi:id="_uRYX4HnkEeyigsMJK-spsg" name="korisnik" visibility="private" type="_uO_LMHnkEeyigsMJK-spsg" association="_uR4uMXnkEeyigsMJK-spsg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uRd3dnnkEeyigsMJK-spsg" name="Trening" specification="_uPLYcHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uRd3d3nkEeyigsMJK-spsg" name="naziv">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRd3eHnkEeyigsMJK-spsg" name="datum">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRd3eXnkEeyigsMJK-spsg" name="vreme">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uRd3ennkEeyigsMJK-spsg" type="_uPKxYHnkEeyigsMJK-spsg" direction="return"/>
+          <language>java</language>
+          <body>this.naziv = naziv;&#xD;
+		this.datum = datum;&#xD;
+		this.vreme = vreme;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uReegHnkEeyigsMJK-spsg" name="toString" specification="_uPL_hnnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uReegXnkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Trening [naziv=&quot; + naziv + &quot;, datum=&quot; + datum + &quot;, vreme=&quot; + vreme + &quot;]&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_uPLYcHnkEeyigsMJK-spsg" name="Trening" method="_uRd3dnnkEeyigsMJK-spsg">
+          <eAnnotations xmi:id="_uPL_g3nkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uPL_hHnkEeyigsMJK-spsg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_uPL_gHnkEeyigsMJK-spsg" name="naziv">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPL_gXnkEeyigsMJK-spsg" name="datum">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPL_gnnkEeyigsMJK-spsg" name="vreme">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_uPL_hXnkEeyigsMJK-spsg" type="_uPKxYHnkEeyigsMJK-spsg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uPL_hnnkEeyigsMJK-spsg" name="toString" method="_uReegHnkEeyigsMJK-spsg">
+          <ownedParameter xmi:id="_uPL_h3nkEeyigsMJK-spsg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRfsoHnkEeyigsMJK-spsg" name="" memberEnd="_uRNYwHnkEeyigsMJK-spsg _uRfsoXnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRfsoXnkEeyigsMJK-spsg" name="" type="_uOrpMHnkEeyigsMJK-spsg" association="_uRfsoHnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRfsonnkEeyigsMJK-spsg" name="" memberEnd="_uRNYwXnkEeyigsMJK-spsg _uRgTsHnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRgTsHnkEeyigsMJK-spsg" name="" type="_uOrpMHnkEeyigsMJK-spsg" association="_uRfsonnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRj-EHnkEeyigsMJK-spsg" name="" memberEnd="_uRj-EXnkEeyigsMJK-spsg _uRN_0XnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRj-EXnkEeyigsMJK-spsg" name="" type="_uOwhsHnkEeyigsMJK-spsg" association="_uRj-EHnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRklIXnkEeyigsMJK-spsg" name="" memberEnd="_uRklInnkEeyigsMJK-spsg _uROm4HnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRklInnkEeyigsMJK-spsg" name="" type="_uOyW4XnkEeyigsMJK-spsg" association="_uRklIXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRlMMXnkEeyigsMJK-spsg" name="" memberEnd="_uRlMMnnkEeyigsMJK-spsg _uROm4nnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRlMMnnkEeyigsMJK-spsg" name="" type="_uOyW4XnkEeyigsMJK-spsg" association="_uRlMMXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRlzQXnkEeyigsMJK-spsg" name="" memberEnd="_uRlzQnnkEeyigsMJK-spsg _uRPN8XnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRlzQnnkEeyigsMJK-spsg" name="" type="_uOyW4XnkEeyigsMJK-spsg" association="_uRlzQXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRlzRHnkEeyigsMJK-spsg" name="" memberEnd="_uRlzRXnkEeyigsMJK-spsg _uRPN83nkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRlzRXnkEeyigsMJK-spsg" name="" type="_uO0zIHnkEeyigsMJK-spsg" association="_uRlzRHnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRmaUXnkEeyigsMJK-spsg" name="" memberEnd="_uRmaUnnkEeyigsMJK-spsg _uRPN9XnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRmaUnnkEeyigsMJK-spsg" name="" type="_uO2BQHnkEeyigsMJK-spsg" association="_uRmaUXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRnBYXnkEeyigsMJK-spsg" name="" memberEnd="_uRnBYnnkEeyigsMJK-spsg _uRP1AXnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRnBYnnkEeyigsMJK-spsg" name="" type="_uO2BQHnkEeyigsMJK-spsg" association="_uRnBYXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRnBZHnkEeyigsMJK-spsg" name="" memberEnd="_uRnBZXnkEeyigsMJK-spsg _uRP1A3nkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRnBZXnkEeyigsMJK-spsg" name="" type="_uO2BQHnkEeyigsMJK-spsg" association="_uRnBZHnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRnocXnkEeyigsMJK-spsg" name="" memberEnd="_uRnocnnkEeyigsMJK-spsg _uRP1BXnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRnocnnkEeyigsMJK-spsg" name="" type="_uO2BQHnkEeyigsMJK-spsg" association="_uRnocXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRoPgXnkEeyigsMJK-spsg" name="" memberEnd="_uRoPgnnkEeyigsMJK-spsg _uRQcEXnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRoPgnnkEeyigsMJK-spsg" name="" type="_uO4dgHnkEeyigsMJK-spsg" association="_uRoPgXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRo2kHnkEeyigsMJK-spsg" name="" memberEnd="_uRo2kXnkEeyigsMJK-spsg _uRQcE3nkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRo2kXnkEeyigsMJK-spsg" name="" type="_uO4dgHnkEeyigsMJK-spsg" association="_uRo2kHnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRo2k3nkEeyigsMJK-spsg" name="" memberEnd="_uRo2lHnkEeyigsMJK-spsg _uRRDIXnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRo2lHnkEeyigsMJK-spsg" name="" type="_uO4dgHnkEeyigsMJK-spsg" association="_uRo2k3nkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRpdoXnkEeyigsMJK-spsg" name="" memberEnd="_uRpdonnkEeyigsMJK-spsg _uRRDI3nkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRpdonnkEeyigsMJK-spsg" name="" type="_uO4dgHnkEeyigsMJK-spsg" association="_uRpdoXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRqEsXnkEeyigsMJK-spsg" name="" memberEnd="_uRqEsnnkEeyigsMJK-spsg _uRRqMXnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRqEsnnkEeyigsMJK-spsg" name="" type="_uO4dgHnkEeyigsMJK-spsg" association="_uRqEsXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRqEtHnkEeyigsMJK-spsg" name="" memberEnd="_uRqEtXnkEeyigsMJK-spsg _uRRqM3nkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRqEtXnkEeyigsMJK-spsg" name="" type="_uO4dgHnkEeyigsMJK-spsg" association="_uRqEtHnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRqrwXnkEeyigsMJK-spsg" name="" memberEnd="_uRqrwnnkEeyigsMJK-spsg _uRSRQXnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRqrwnnkEeyigsMJK-spsg" name="" type="_uO4dgHnkEeyigsMJK-spsg" association="_uRqrwXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uRrS0HnkEeyigsMJK-spsg" name="" memberEnd="_uRrS0XnkEeyigsMJK-spsg _uRSRQ3nkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uRrS0XnkEeyigsMJK-spsg" name="" type="_uO4dgHnkEeyigsMJK-spsg" association="_uRrS0HnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uR2R8XnkEeyigsMJK-spsg" name="" memberEnd="_uR2R8nnkEeyigsMJK-spsg _uRSRRXnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uR2R8nnkEeyigsMJK-spsg" name="" type="_uO4dgHnkEeyigsMJK-spsg" association="_uR2R8XnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uR25AXnkEeyigsMJK-spsg" name="" memberEnd="_uR25AnnkEeyigsMJK-spsg _uRS4UHnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uR25AnnkEeyigsMJK-spsg" name="" type="_uO4dgHnkEeyigsMJK-spsg" association="_uR25AXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uR3gEHnkEeyigsMJK-spsg" name="" memberEnd="_uR3gEXnkEeyigsMJK-spsg _uRS4UnnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uR3gEXnkEeyigsMJK-spsg" name="" type="_uO9WAHnkEeyigsMJK-spsg" association="_uR3gEHnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uR3gE3nkEeyigsMJK-spsg" name="" memberEnd="_uR3gFHnkEeyigsMJK-spsg _uRUGc3nkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uR3gFHnkEeyigsMJK-spsg" name="" type="_uO_LMHnkEeyigsMJK-spsg" association="_uR3gE3nkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uR4HIXnkEeyigsMJK-spsg" name="" memberEnd="_uR4HInnkEeyigsMJK-spsg _uRXJw3nkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uR4HInnkEeyigsMJK-spsg" name="" type="_uPKxYHnkEeyigsMJK-spsg" association="_uR4HIXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uR4HJHnkEeyigsMJK-spsg" name="" memberEnd="_uR4HJXnkEeyigsMJK-spsg _uRXw0XnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uR4HJXnkEeyigsMJK-spsg" name="" type="_uPKxYHnkEeyigsMJK-spsg" association="_uR4HJHnkEeyigsMJK-spsg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uR4uMXnkEeyigsMJK-spsg" name="" memberEnd="_uR4uMnnkEeyigsMJK-spsg _uRYX4HnkEeyigsMJK-spsg">
+        <ownedEnd xmi:id="_uR4uMnnkEeyigsMJK-spsg" name="" type="_uPKxYHnkEeyigsMJK-spsg" association="_uR4uMXnkEeyigsMJK-spsg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_uNpHYXnkEeyigsMJK-spsg" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_uNpucHnkEeyigsMJK-spsg" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_uNqVgHnkEeyigsMJK-spsg" name="border">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_uQqmMXnkEeyigsMJK-spsg" name="Border"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uQqmM3nkEeyigsMJK-spsg" name="EmptyBorder"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uQx68HnkEeyigsMJK-spsg" name="LineBorder"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_uN7bQXnkEeyigsMJK-spsg" name="GroupLayout">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_uQ5PsnnkEeyigsMJK-spsg" name="Alignment"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQp_IXnkEeyigsMJK-spsg" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQp_I3nkEeyigsMJK-spsg" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQrNQXnkEeyigsMJK-spsg" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQtCcXnkEeyigsMJK-spsg" name="BorderFactory"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQtpgHnkEeyigsMJK-spsg" name="ImageIcon"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQtpgnnkEeyigsMJK-spsg" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQu3oHnkEeyigsMJK-spsg" name="JTextField"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_uQwFwXnkEeyigsMJK-spsg" name="SwingConstants"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQzJEHnkEeyigsMJK-spsg" name="JCheckBox"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQzwIXnkEeyigsMJK-spsg" name="JTextArea"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQ0XMXnkEeyigsMJK-spsg" name="JScrollBar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQ2MYHnkEeyigsMJK-spsg" name="JFormattedTextField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQ2zcXnkEeyigsMJK-spsg" name="JRadioButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQ5PsHnkEeyigsMJK-spsg" name="GroupLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQ52wXnkEeyigsMJK-spsg" name="BoxLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQ86EHnkEeyigsMJK-spsg" name="JComboBox"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQ-IMXnkEeyigsMJK-spsg" name="DefaultComboBoxModel"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_uN60MHnkEeyigsMJK-spsg" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_uN60MXnkEeyigsMJK-spsg" name="toedter">
+        <packagedElement xmi:type="uml:Package" xmi:id="_uN7bQHnkEeyigsMJK-spsg" name="calendar">
+          <packagedElement xmi:type="uml:Class" xmi:id="_uQ4BkHnkEeyigsMJK-spsg" name="JDateChooser"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uQ-vQHnkEeyigsMJK-spsg" name="JMonthChooser"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uQ_WUXnkEeyigsMJK-spsg" name="JCalendar"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uQ_9YHnkEeyigsMJK-spsg" name="JDayChooser"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_uDlzgHnkEeyigsMJK-spsg">
+      <eAnnotations xmi:id="_uDlzgXnkEeyigsMJK-spsg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_uDlzgnnkEeyigsMJK-spsg" base_Package="_uA6S8HnkEeyigsMJK-spsg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uOteYHnkEeyigsMJK-spsg" base_Element="_uOsQQHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uOusgHnkEeyigsMJK-spsg" base_Element="_uOuFcHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Annotations xmi:id="_uOusgXnkEeyigsMJK-spsg" base_Element="_uOuFcHnkEeyigsMJK-spsg">
+    <annotations xmi:id="_uOusgnnkEeyigsMJK-spsg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_uO3PYXnkEeyigsMJK-spsg" base_Element="_uO2oUXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Array xmi:id="_uO65wHnkEeyigsMJK-spsg" dimensions="1" base_Element="_uO6SsXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Array xmi:id="_uO99E3nkEeyigsMJK-spsg" base_Element="_uO99EXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uO_yQ3nkEeyigsMJK-spsg" base_Element="_uO_yQHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uPEDsXnkEeyigsMJK-spsg" base_Element="_uPDcrHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Annotations xmi:id="_uPEDsnnkEeyigsMJK-spsg" base_Element="_uPDcrHnkEeyigsMJK-spsg">
+    <annotations xmi:id="_uPEDs3nkEeyigsMJK-spsg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uPGf83nkEeyigsMJK-spsg" base_Element="_uPGf8HnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uPIVI3nkEeyigsMJK-spsg" base_Element="_uPIVIHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uPJjRXnkEeyigsMJK-spsg" base_Element="_uPJjQ3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Annotations xmi:id="_uPKKUHnkEeyigsMJK-spsg" base_Element="_uPJjQ3nkEeyigsMJK-spsg">
+    <annotations xmi:id="_uPKKUXnkEeyigsMJK-spsg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uPL_iHnkEeyigsMJK-spsg" base_Element="_uPL_hnnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Annotations xmi:id="_uPMmkHnkEeyigsMJK-spsg" base_Element="_uPL_hnnkEeyigsMJK-spsg">
+    <annotations xmi:id="_uPMmkXnkEeyigsMJK-spsg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_uQni4HnkEeyigsMJK-spsg" base_Element="_uQm70HnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQpYEHnkEeyigsMJK-spsg" base_Element="_uQoxAHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQp_IHnkEeyigsMJK-spsg" base_Element="_uQpYEXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQp_InnkEeyigsMJK-spsg" base_Element="_uQp_IXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQqmMHnkEeyigsMJK-spsg" base_Element="_uQp_I3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQqmMnnkEeyigsMJK-spsg" base_Element="_uQqmMXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQrNQHnkEeyigsMJK-spsg" base_Element="_uQqmM3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQrNQnnkEeyigsMJK-spsg" base_Element="_uQrNQXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQr0UXnkEeyigsMJK-spsg" base_Element="_uQr0UHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQsbYHnkEeyigsMJK-spsg" base_Element="_uQr0UnnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQsbYnnkEeyigsMJK-spsg" base_Element="_uQsbYXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQtCcHnkEeyigsMJK-spsg" base_Element="_uQsbY3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQtCcnnkEeyigsMJK-spsg" base_Element="_uQtCcXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQtpgXnkEeyigsMJK-spsg" base_Element="_uQtpgHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQuQkHnkEeyigsMJK-spsg" base_Element="_uQtpgnnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQvesHnkEeyigsMJK-spsg" base_Element="_uQu3oHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQwFwHnkEeyigsMJK-spsg" base_Element="_uQvesXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQws0HnkEeyigsMJK-spsg" base_Element="_uQwFwXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQyiAHnkEeyigsMJK-spsg" base_Element="_uQx68HnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQzwIHnkEeyigsMJK-spsg" base_Element="_uQzJEHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ0XMHnkEeyigsMJK-spsg" base_Element="_uQzwIXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ0-QHnkEeyigsMJK-spsg" base_Element="_uQ0XMXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ2zcHnkEeyigsMJK-spsg" base_Element="_uQ2MYHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ3agHnkEeyigsMJK-spsg" base_Element="_uQ2zcXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ4BkXnkEeyigsMJK-spsg" base_Element="_uQ4BkHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ4ooHnkEeyigsMJK-spsg" base_Element="_uQ4BknnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ5PsXnkEeyigsMJK-spsg" base_Element="_uQ5PsHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ52wHnkEeyigsMJK-spsg" base_Element="_uQ5PsnnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ6d0HnkEeyigsMJK-spsg" base_Element="_uQ52wXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ-IMHnkEeyigsMJK-spsg" base_Element="_uQ86EHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ-IMnnkEeyigsMJK-spsg" base_Element="_uQ-IMXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ_WUHnkEeyigsMJK-spsg" base_Element="_uQ-vQHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ_WUnnkEeyigsMJK-spsg" base_Element="_uQ_WUXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uQ_9YXnkEeyigsMJK-spsg" base_Element="_uQ_9YHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRN_0nnkEeyigsMJK-spsg" base_Element="_uRN_0XnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uROm4XnkEeyigsMJK-spsg" base_Element="_uROm4HnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRPN8HnkEeyigsMJK-spsg" base_Element="_uROm4nnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRPN8nnkEeyigsMJK-spsg" base_Element="_uRPN8XnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRPN9HnkEeyigsMJK-spsg" base_Element="_uRPN83nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRP1AHnkEeyigsMJK-spsg" base_Element="_uRPN9XnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRP1AnnkEeyigsMJK-spsg" base_Element="_uRP1AXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRP1BHnkEeyigsMJK-spsg" base_Element="_uRP1A3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRQcEHnkEeyigsMJK-spsg" base_Element="_uRP1BXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRQcEnnkEeyigsMJK-spsg" base_Element="_uRQcEXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRRDIHnkEeyigsMJK-spsg" base_Element="_uRQcE3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRRDInnkEeyigsMJK-spsg" base_Element="_uRRDIXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRRqMHnkEeyigsMJK-spsg" base_Element="_uRRDI3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRRqMnnkEeyigsMJK-spsg" base_Element="_uRRqMXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRSRQHnkEeyigsMJK-spsg" base_Element="_uRRqM3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRSRQnnkEeyigsMJK-spsg" base_Element="_uRSRQXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRSRRHnkEeyigsMJK-spsg" base_Element="_uRSRQ3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRSRRnnkEeyigsMJK-spsg" base_Element="_uRSRRXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRS4UXnkEeyigsMJK-spsg" base_Element="_uRS4UHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRTfYHnkEeyigsMJK-spsg" base_Element="_uRS4UnnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRUGdHnkEeyigsMJK-spsg" base_Element="_uRUGc3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRXw0HnkEeyigsMJK-spsg" base_Element="_uRXJw3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRXw0nnkEeyigsMJK-spsg" base_Element="_uRXw0XnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uRYX4XnkEeyigsMJK-spsg" base_Element="_uRYX4HnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRklIHnkEeyigsMJK-spsg" base_Element="_uRj-EHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRlMMHnkEeyigsMJK-spsg" base_Element="_uRklIXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRlzQHnkEeyigsMJK-spsg" base_Element="_uRlMMXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRlzQ3nkEeyigsMJK-spsg" base_Element="_uRlzQXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRmaUHnkEeyigsMJK-spsg" base_Element="_uRlzRHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRnBYHnkEeyigsMJK-spsg" base_Element="_uRmaUXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRnBY3nkEeyigsMJK-spsg" base_Element="_uRnBYXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRnocHnkEeyigsMJK-spsg" base_Element="_uRnBZHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRoPgHnkEeyigsMJK-spsg" base_Element="_uRnocXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRoPg3nkEeyigsMJK-spsg" base_Element="_uRoPgXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRo2knnkEeyigsMJK-spsg" base_Element="_uRo2kHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRpdoHnkEeyigsMJK-spsg" base_Element="_uRo2k3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRqEsHnkEeyigsMJK-spsg" base_Element="_uRpdoXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRqEs3nkEeyigsMJK-spsg" base_Element="_uRqEsXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRqrwHnkEeyigsMJK-spsg" base_Element="_uRqEtHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uRqrw3nkEeyigsMJK-spsg" base_Element="_uRqrwXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uR2R8HnkEeyigsMJK-spsg" base_Element="_uRrS0HnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uR25AHnkEeyigsMJK-spsg" base_Element="_uR2R8XnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uR25A3nkEeyigsMJK-spsg" base_Element="_uR25AXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uR3gEnnkEeyigsMJK-spsg" base_Element="_uR3gEHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uR4HIHnkEeyigsMJK-spsg" base_Element="_uR3gE3nkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uR4HI3nkEeyigsMJK-spsg" base_Element="_uR4HIXnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uR4uMHnkEeyigsMJK-spsg" base_Element="_uR4HJHnkEeyigsMJK-spsg"/>
+  <UMLLabProfile:Reference xmi:id="_uR4uM3nkEeyigsMJK-spsg" base_Element="_uR4uMXnkEeyigsMJK-spsg"/>
+</xmi:XMI>
